@@ -1,0 +1,618 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  12pt,
+]{ctexart}
+\title{``概念扩散''：中央指令、地方灵活性、外部权威与模糊性政策的地方扩散}
+\author{孙宇飞\footnote{清华大学政治学系博士生，联系电话：18638750921，邮箱：\href{mailto:sunyf20@mails.tsinghua.edu.cn}{\nolinkurl{sunyf20@mails.tsinghua.edu.cn}}}}
+\date{}
+
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={``概念扩散''：中央指令、地方灵活性、外部权威与模糊性政策的地方扩散},
+  pdfauthor={孙宇飞},
+  colorlinks=true,
+  linkcolor={Maroon},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage[margin=1in]{geometry}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newlength{\cslentryspacingunit} % times entry-spacing
+\setlength{\cslentryspacingunit}{\parskip}
+\newenvironment{CSLReferences}[2] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1
+  \let\oldpar\par
+  \def\par{\hangindent=\cslhangindent\oldpar}
+  \fi
+  % set entry spacing
+  \setlength{\parskip}{#2\cslentryspacingunit}
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}\break}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+
+\begin{document}
+\maketitle
+\begin{abstract}
+政策在政府间不仅通过清晰的文本扩散，还会通过模糊的政策概念进行传递。
+中央政府的政策往往不会给出明确的执行细则，而是给出模糊的概念或是信号。
+面对同样的政策信号，不同的地方政策制定者往往会有天差地别的理解。
+本文在梳理已有理论的基础上，从政策扩散的主体和内容等视角出发，提出了``概念扩散''的视角。
+在此基础上，笔者使用``可持续发展议程''在中国六个地区的差异性扩散作为案例，使用比较案例分析的方法，
+对``概念扩散''的过程和在过程中受到``中央政府''、``地方政府''和``权威话语者''等主体的影响进行了实证检验。
+
+笔者发现，在``可持续发展议程''本地化的过程中，
+中央政府首先提出一个模糊的概念；
+各地方政府是主要承接者和内部的政策制定者；
+联合国机构在此议题上扮演着政策企业家和外部的权威话语拥有者的角色。
+由于主导主体和力量对比不同，``可持续发展议程''的概念扩散过程分为中央主导型、地方主导型、外部主导型、央地协作型、地方外部竞争型、中央外部竞争型、内部外部互动型和无人主导型七种类型。
+对于不同类型的概念扩散过程，结果差异也较大。不同主导主体会将自身偏好施加在从``概念''到``政策''的翻译过程。对于多个主体参与的概念扩散，会出现明显的主体间协作或竞争的现象。
+
+\textbf{关键词}：政策扩散; 概念扩散; 全球化; 中央地方关系
+\end{abstract}
+
+\newpage
+
+\hypertarget{ux5f15ux8a00}{%
+\section{引言}\label{ux5f15ux8a00}}
+
+当一个政治行为体进行政策制定时，会受到其他行为体既有政策的影响，这一过程通常被称为``政策扩散''。
+作为政治话语的重要组成部分，公共政策是政治学重要的研究领域和数据来源，政策扩散是描述和解释公共政策传播的核心概念。
+``政策扩散''是一个包括社会政策、经济政策、政治政策等各个政策领域的政策传播过程；是一个政府组织、政治精英、政策企业家、新闻媒体和民众等各个政治主体的政治互动过程；它贯穿从议程设置、到政策采纳、再到政策执行和反馈的政策全过程。
+
+政策扩散包括水平和垂直两个方向，水平扩散是指政策在同级政府间进行政策扩散；
+垂直方向的政策扩散描述的是政策扩散在中央政府和地方政府之间的传播过程，包括自上而下和自下而上两个部分。
+其中，自上而下的政策推行，是中央集权体制政府政策扩散的重要途径。
+现有研究从主体、内容、机制等视角对中央政府政策如何扩散到地方政府展开研究。
+
+虽然现有研究为我们理解自上而下的政策扩散提供了有益的启发，但是它们大多关注于通过清晰的``文本''方式的政策扩散，即一个具体的措施是如何从中央扩散到地方政府的。
+但在现实治理过程中\textbf{政策扩散并不一定通过清晰的政策文本扩散，往往会通过模糊的政策概念进行传递，这在自上而下的政策推行中尤为明显。}
+在中国，中央行政命令（包括政府工作报告、法规、政策、规划、意见、通知、文件等）都会给地方进行政策创新的压力和合法性，
+但中央政府政策文件往往不会给出明确的执行细则，而是给出模糊的政策概念或是政策信号。
+面对同样的信号，不同的地方政策制定者往往会有天差地别的理解。
+现有文献对这种模糊信号从中央到地方的扩散机制并未深入研究。
+
+本研究在梳理已有理论的基础上，从政策扩散的主体和内容等视角出发，提出了``概念扩散''的视角，尝试用此概念描述模糊信号从中央拓展到地方的过程。
+在此基础上，笔者使用``可持续发展议程''在中国六个地区的差异性扩散作为案例，使用比较案例分析的方法，对``概念扩散''的过程和在过程中受到``中央政府''、``地方政府''和``权威话语者''等主体的影响进行了实证检验。
+
+\hypertarget{ux81eaux4e0aux800cux4e0bux7684ux653fux7b56ux6269ux6563ux4e3bux4f53ux673aux5236ux548cux5185ux5bb9}{%
+\section{自上而下的政策扩散：主体、机制和内容}\label{ux81eaux4e0aux800cux4e0bux7684ux653fux7b56ux6269ux6563ux4e3bux4f53ux673aux5236ux548cux5185ux5bb9}}
+
+作为中央参与地方治理的重要手段和央地关系重要的构成方式，自上而下的政策扩散受到学者的广泛关注，现有研究从主体、机制和内容等角度关注了这一政策传播过程。
+
+\hypertarget{ux81eaux4e0aux800cux4e0bux653fux7b56ux6269ux6563ux7684ux4e3bux4f53ux5730ux65b9ux653fux5e9cux4e2dux592eux653fux5e9cux548cux653fux7b56ux4f01ux4e1aux5bb6}{%
+\subsection{自上而下政策扩散的主体：地方政府、中央政府和政策企业家}\label{ux81eaux4e0aux800cux4e0bux653fux7b56ux6269ux6563ux7684ux4e3bux4f53ux5730ux65b9ux653fux5e9cux4e2dux592eux653fux5e9cux548cux653fux7b56ux4f01ux4e1aux5bb6}}
+
+自上而下政策扩散的主体主要包括内部主体和外部主体，他们的偏好、目标、能力、政策环境和身份都深刻影响了政策从中央扩散到地方的过程。
+
+自上而下政策扩散的内部主体是地方政府。
+他们的是政策扩散的起点，主要包括个人偏好和外界影响的偏好。个人偏好受到其学历和个人经历(\protect\hyperlink{ref-HanWanQu2019}{韩万渠, 2019})等因素的影响，外部影响主要包括受到民众(\protect\hyperlink{ref-Perez-ArmendarizCrow2010}{PÉREZ-ARMENDÁRIZ 等, 2010})、利益集团(\protect\hyperlink{ref-GarrettJansa2015}{GARRETT 等, 2015})和其他政府的影响。
+\textbf{内部行动者的偏好是由他们的目标塑造的。}
+一般来说，作为政治人物，内部行动者的目标主要包括政治目标和治理目标两个方面。
+治理目标主要包括扩大税基、增加收入、提供公共产品等现实治理需要。
+不同类型的政府有着不同的政策扩散目标，中央集权体制国家的内部行动者对上级目标有着更高的优先级。\protect\hyperlink{ref-ZhuXuFengZhaoHui2016}{朱旭峰 等} (\protect\hyperlink{ref-ZhuXuFengZhaoHui2016}{2016}) 发现和西方选举民主体制相比，中国地方政府在进行政策扩散时更加在意上级权威对自己政策扩散创新行为的认可。
+
+\textbf{政策扩散的外部行动者主要包括政策先行者和``政策企业家''两大类。}
+对于自上而下的政策扩散，政策先行者是指提出和推广政策的上级政府或中央政府。
+上级政府往往会使用``胡萝卜加大棒''的方式来推动政策的扩散(\protect\hyperlink{ref-DouglasEtAl2015}{DOUGLAS 等, 2015})。
+由于拥有更多地行政资源，他们往往会使用行政压力来``胁迫''下级政府进行其要求的政策变革(\protect\hyperlink{ref-ZhuDuoGangHuZhenJi2017}{朱多刚 等, 2017})。
+
+\textbf{政策企业家是近年来公共行政领域研究政策创新和政策扩散的重要主体。}
+简单来说，政策企业家就是指``利用自身资源传播公共政策，从而改变公共资源分配的外部行动者''(\protect\hyperlink{ref-Burgelman1985}{BURGELMAN, 1985})
+现有研究主要关注``谁是政策企业家''、``政策企业家为什么要推动政策扩散''、``哪些因素影响着他们推动政策扩散''、``政策企业家如何参与政策扩散''等问题。(\protect\hyperlink{ref-ZhuYaPengXiaoDiWen2014}{朱亚鹏 等, 2014})
+\textbf{在动机上，政策企业家推动政策扩散主要是由于激励和理念两个维度。}
+从激励动机上来看，政策企业家尤其是政府内部的政策企业家，会因为政治晋升、声誉获取、资源积累等因素推动政策扩散(\protect\hyperlink{ref-Schneider1989}{SCHNEIDER, 1989}; \protect\hyperlink{ref-SchneiderTeske1992}{SCHNEIDER 等, 1992})；
+从理念动机上来看，推动和实现自己的政治理想也是政策企业家促进政策创新的动机来源。
+
+\hypertarget{ux81eaux4e0aux800cux4e0bux653fux7b56ux6269ux6563ux7684ux673aux5236ux5b66ux4e60ux548cux5f3aux5236}{%
+\subsection{自上而下政策扩散的机制：学习和强制}\label{ux81eaux4e0aux800cux4e0bux653fux7b56ux6269ux6563ux7684ux673aux5236ux5b66ux4e60ux548cux5f3aux5236}}
+
+作为政策扩散的核心研究话题，自上而下政策扩散的机制受到学者们的广泛关注，他们使用汗牛充栋的文献和词汇来描述``中央政策如何传播到地方政策''这一过程。
+总的来说，自上而下政策扩散的机制主要包括学习和强制两个类型，一般政策扩散中的竞争和社会化在这一过程中较少的体现。
+
+\hypertarget{ux81eaux4e0aux800cux4e0bux7684ux5b66ux4e60ux673aux5236}{%
+\subsubsection{自上而下的学习机制}\label{ux81eaux4e0aux800cux4e0bux7684ux5b66ux4e60ux673aux5236}}
+
+\textbf{学习机制是指``有意利用某时、某地有关政策或制度的经验教训来调整此时、此地的政策或制度(\protect\hyperlink{ref-WangShaoGuang2008a}{王绍光, 2008})''}。
+面对治理问题的不确定性和外部压力，决策者会想方设法从别人的实践中学习经验或教训，探寻解决问题的潜在有效方式。
+
+\textbf{学习并不一定是一种自发地行为，它还可以是由外力推动的，自上而下的学习就是由外力推动学习的典型形式。}
+它主要是指中央政府树立一个典型的个案或者概念，地方政府学习这些概念或是将概念具体化为政策的过程。(\protect\hyperlink{ref-WangPuQuLaiXianJin2013}{王浦劬 等, 2013})在中央集权体制的国家，地方政府的政策创新可能基于自主的政策实践，也可能来源于上级政府有意识的政策试验设计和选择。(\protect\hyperlink{ref-MeiLiu2014}{MEI 等, 2014}; \protect\hyperlink{ref-ZhuXuFengZhaoHui2016}{朱旭峰 等, 2016}; \protect\hyperlink{ref-MeiSiQiEtAl2015}{梅赐琪 等, 2015}; \protect\hyperlink{ref-WangShaoGuang2008a}{王绍光, 2008})
+
+\textbf{在政策学习的方式上，主要包括``个人网络''(personal networking)、``机构联盟''(institutional alliance)和``权威话语''(hegemonic discourse)三种模式(\protect\hyperlink{ref-CHIENHo2011}{CHIEN 等, 2011})}
+\textbf{``个人网络''}是指通过政策制定者和政策企业家的个人关系网络引进政策创新。
+\protect\hyperlink{ref-CHIENHo2011}{CHIEN 等} (\protect\hyperlink{ref-CHIENHo2011}{2011}) 使用中国昆山的投资商对政府政策发展提供建议的案例展示了``个人网络''是如何让政策企业家将外国城市的经济政策扩散到中国城市。这一政策扩散的过程对于政策企业家本身也是获利的，因此他们有充足的动机继续帮助政府学习政策，推动政策扩散。
+\protect\hyperlink{ref-Haas1992}{HAAS} (\protect\hyperlink{ref-Haas1992}{1992/ed}) 和 \protect\hyperlink{ref-Mintrom1997}{MINTROM} (\protect\hyperlink{ref-Mintrom1997}{1997}) 在美国国内政策传播场域也发现政策倡导者和企业家对政策制定者政策学习的影响。然而，尽管这些群体和个人可能有助于克服学习的局限性，但他们也带来了自己的偏见和局限性。(\protect\hyperlink{ref-ShipanVolden2012}{SHIPAN 等, 2012})
+\protect\hyperlink{ref-Binz-ScharfEtAl2012}{BINZ-SCHARF 等} (\protect\hyperlink{ref-Binz-ScharfEtAl2012}{2012}) 发现不仅是政策企业家，政府公务人员内部的私人网络也会促进政策的扩散，这种网络的扩散效应在去中心化的政府中最为明显。
+\textbf{``机构联盟''}是指政策创新在政府之间建立的制度化合作伙伴关系中进行扩散。立法机构和行政长官的跨政府组织会提供有关其他政府所采纳政策的信息交换所(\protect\hyperlink{ref-Balla2001}{BALLA, 2001})。\protect\hyperlink{ref-Fuglister2012}{FÜGLISTER} (\protect\hyperlink{ref-Fuglister2012}{2012}) 发现参加瑞士政府间卫生政策会议增加了一个州了解并采纳其他州成功政策的可能性。 \protect\hyperlink{ref-MaLiang2019}{马亮} (\protect\hyperlink{ref-MaLiang2019}{2019}) 党政代表团会促进中国城市间的政策扩散。 \protect\hyperlink{ref-Brooks2005}{BROOKS} (\protect\hyperlink{ref-Brooks2005}{2005}) 发现同侪动态有力地促进了拉丁美洲私人养老金改革的传播。
+\textbf{权威话语}是指政府机构在制定政策时咨询权威话语者，并通过这种方式来进行政策学习。这类权威话语者会将类似的治理建议传播给不同的政策对象，由此借助其咨询的客户网络，实现政策的传播。他们可以是智库、高校、甚至是国际组织，\protect\hyperlink{ref-Stone2004}{STONE} (\protect\hyperlink{ref-Stone2004}{2004}) 就检验了国际组织和非国家行动者在跨国政策传播网络中的作用。\protect\hyperlink{ref-CHIENHo2011}{CHIEN 等} (\protect\hyperlink{ref-CHIENHo2011}{2011}) 认为由于这种顾问关系是长期的，因此在此政府网络中政府学习到的不仅是和当前政策目标紧密联系的政策，还有其他政府的发展理念和政策文化。
+
+\hypertarget{ux81eaux4e0aux800cux4e0bux7684ux5f3aux5236ux673aux5236}{%
+\subsubsection{自上而下的强制机制}\label{ux81eaux4e0aux800cux4e0bux7684ux5f3aux5236ux673aux5236}}
+
+自上而下政策扩散的强制机制涉及到中央政府对地方政府更大规模和更深程度的外部干预，中央政府试图将其偏好使用强制的方式施加给地方的政策制定者。
+\textbf{在手段上，``胡萝卜加大棒''是最常用的强制工具。}
+强制的基础是政治实体之间的权力不对称(\protect\hyperlink{ref-Drezner2005}{DREZNER, 2005})，这种不对称可以从多种方面表现出来。
+其有效性与地方政府的权力来源有关， \protect\hyperlink{ref-WangPuQuLaiXianJin2013}{王浦劬 等} (\protect\hyperlink{ref-WangPuQuLaiXianJin2013}{2013}) 认为中国地方政府的权力来源于中央政府的授权和统一领导，这种领导与被领导、命令与服从的关系决定了中央政府及其各部门可通过行政权威指令性推动特定政策的广泛扩散和实行。
+同时，强制并不依赖于暴力胁迫，经济手段也可以为强制提供基础，
+中央政府可以通过政府间拨款、法规和中央政府的先发制人政策等方式对其他政策制定者进行软强制。(\protect\hyperlink{ref-AllenEtAl2004}{ALLEN 等, 2004/ed}; \protect\hyperlink{ref-Karch2006}{KARCH, 2006}; \protect\hyperlink{ref-Walker1973}{WALKER, 1973}; \protect\hyperlink{ref-WelchThompson1980}{WELCH 等, 1980})
+
+\textbf{在影响上，强制可能带来政策制定的更加协同，也有可能造成政策制定者的策略化不服从。}
+政策扩散对强制施加者的红利是显而易见的，但是如果地方政府将不合理的政策目标强制给其他的政策制定者，不仅会对他们的积极性造成影响 (\protect\hyperlink{ref-ZhuGuangNanEtAl2012a}{朱光楠 等, 2012}) ，还会使得政策执行和政策目标出现偏差 (\protect\hyperlink{ref-ZhouXueGuang2009a}{周雪光, 2009})。
+
+\hypertarget{ux81eaux4e0aux800cux4e0bux7684ux653fux7b56ux6269ux6563ux4eceux6587ux672cux6269ux6563ux5230ux6982ux5ff5ux6269ux6563}{%
+\subsection{自上而下的政策扩散：从``文本扩散''到``概念扩散''}\label{ux81eaux4e0aux800cux4e0bux7684ux653fux7b56ux6269ux6563ux4eceux6587ux672cux6269ux6563ux5230ux6982ux5ff5ux6269ux6563}}
+
+\textbf{自上而下政策扩散涉及到各种类型的政策。}
+\protect\hyperlink{ref-Gray1973}{GRAY} (\protect\hyperlink{ref-Gray1973}{1973}) 将扩散的政策分为``教育、福利和公民权利''三个大的类别。
+后近的研究关注了性别平权政策(\protect\hyperlink{ref-TaylorEtAl2012}{TAYLOR 等, 2012})、环境标准政策(\protect\hyperlink{ref-Saikawa2013}{SAIKAWA, 2013})、福彩票券政策(\protect\hyperlink{ref-FayWenger2016}{FAY 等, 2016})、公共服务政策(\protect\hyperlink{ref-ZhuXuFengZhaoHui2016}{朱旭峰 等, 2016})等。
+这些研究虽然拓展了政策扩散的研究范围，但都没有突破原有的经典分类。
+与此同时，无论是什么类型的政策，现有研究均是从以政策文本复制或变迁作为对象，而对政策文本之外的``弦外之音''缺乏考察。
+\textbf{政策扩散并不一定通过清晰的政策文本扩散，往往会通过模糊的政策概念进行传递，在中央集权制度的国家尤为明显。}
+自上而下的政策推行，是中央集权体制政府政策扩散的重要途径。
+在中国，中央行政命令（包括政府工作报告、法规、政策、规划、意见、通知、文件等）都会给地方进行政策创新的压力和合法性，
+但中央政府政策文件往往不会给出明确的执行细则，而是给出模糊的政策概念或是政策信号。
+面对同样的信号，不同的地方政策制定者往往会有天差地别的理解。
+不同的偏好、能力、目标和意识形态都会影响地方政府将中央``概念化''政策具体化扩散的过程。
+不同的政策接收者在政策理解上有哪些差异，他们为什么会有这样的差异，这些问题的回答有助于我们更加深入的理解政策扩散的内在机制。
+
+基于此，笔者将中央的模糊性政策扩散到地方治理实践的过程称之为``概念扩散''。
+地方政府如何将中央提出的政策概念扩散到自己的治理实践？
+``概念扩散''的过程会受到哪些主体的影响？
+为什么中央同样的政策概念会被不同的地方政府落实为完全不同的政策实践？
+这些都是我们理解模糊政策从中央政府传播到地方政府这一过程亟待回答的问题。
+
+\hypertarget{ux6a21ux578bux4e0eux5047ux8bf4}{%
+\section{模型与假说}\label{ux6a21ux578bux4e0eux5047ux8bf4}}
+
+\hypertarget{ux6982ux5ff5ux6269ux6563ux7684ux89e3ux91caux6a21ux578bux4e2dux592eux653fux5e9cux5730ux65b9ux653fux5e9cux548cux653fux7b56ux4f01ux4e1aux5bb6ux7684ux4e09ux7ef4ux4e92ux52a8}{%
+\subsection{概念扩散的解释模型：中央政府、地方政府和政策企业家的三维互动}\label{ux6982ux5ff5ux6269ux6563ux7684ux89e3ux91caux6a21ux578bux4e2dux592eux653fux5e9cux5730ux65b9ux653fux5e9cux548cux653fux7b56ux4f01ux4e1aux5bb6ux7684ux4e09ux7ef4ux4e92ux52a8}}
+
+与政策扩散的经典研究一致，笔者认为概念扩散也是内部制定者、政策先行者和政策企业家三者共同博弈的过程。
+自上而下的概念扩散过程受到中央政府、地方政府和政策企业家三个行动主体的影响。
+
+\hypertarget{ux4e2dux592eux70b9ux83dcux5730ux65b9ux4e70ux5355ux4e2dux592eux6743ux5a01ux4e0eux6982ux5ff5ux7684ux6269ux6563}{%
+\subsubsection{``中央点菜，地方买单''：中央权威与概念的扩散}\label{ux4e2dux592eux70b9ux83dcux5730ux65b9ux4e70ux5355ux4e2dux592eux6743ux5a01ux4e0eux6982ux5ff5ux7684ux6269ux6563}}
+
+中央政府作为``概念扩散''的发起者，其掌握着大量的资源，能够借助目标设定、预算分配和干部管理等多种机制影响概念扩散的过程。
+``政策试点''是中央政府主导进行政策扩散的经典形式。
+``政策试点''是指由地方发起或中央的改革和试验，成功之后上升为国家政策推广到全国，往往会出现一种``中央点菜，地方买单''的情景(\protect\hyperlink{ref-KongWeiNaZhangGuang2013}{孔卫拿 等, 2013}; \protect\hyperlink{ref-LiMiaoCuiJun2018}{李苗 等, 2018})。它更多地出现在中央集权体制的国家，它包括自下而上的学习吸纳和自上而下的强力推广两个过程的结合(\protect\hyperlink{ref-LinXueFei2015}{林雪霏, 2015})，这一过程主要分成三个步骤：设立试点、挑选成功的典型个案、在更广泛的地区推广。(\protect\hyperlink{ref-Heilmann2018}{HEILMANN, 2018})。这种从政策试验到政策推广的``吸纳---辐射''是中国政策扩散的主要形式。(\protect\hyperlink{ref-ZhouWang2012}{周望, 2012})
+
+\hypertarget{ux6c11ux4e3bux5b9eux9a8cux5ba4ux5730ux65b9ux7075ux6d3bux6027ux4e0eux6982ux5ff5ux7684ux6269ux6563}{%
+\subsubsection{``民主实验室''：地方灵活性与概念的扩散}\label{ux6c11ux4e3bux5b9eux9a8cux5ba4ux5730ux65b9ux7075ux6d3bux6027ux4e0eux6982ux5ff5ux7684ux6269ux6563}}
+
+\textbf{对于作为内部行动者的地方政府来说，概念扩散并非单向被动接受的过程，而是一个主动选择的过程。}(\protect\hyperlink{ref-GlickHays1991}{GLICK 等, 1991}; \protect\hyperlink{ref-LinXueFei2015}{林雪霏, 2015})。因为任何概念或政策都可以通过明确拒绝或者偏差执行的方式进行应对。
+内部行动者会根据其自身偏好与目标和外部行动者进行博弈，并根据其自身需要对概念进行具体化，以获得政治上的或是治理上的最有力的政策效果。
+
+不同地方政府和中央政府博弈的空间并不相同，能力越强的政府对于概念解读的灵活性越大。
+\protect\hyperlink{ref-ShipanVolden2008}{SHIPAN 等} (\protect\hyperlink{ref-ShipanVolden2008}{2008}) 通过考察禁烟政策在城市间采纳的异质性从自上而下和水平扩散两个层面进一步展现了地方政府能力对政策扩散的影响。地方能力强大的城市往往能够抵挡住中央政府政策压力，从而在政策扩散中具有更强的灵活性；地方能力弱小的城市往往会模仿中央或其他城市的政策，即使这些政策不适合他们自己的治理需要。
+
+进一步的，笔者认为，面对``概念扩散''地方政府的灵活性主要来自于两个方面。
+首先是主动性，如果这个概念同该地的发展需要或者是该地政治精英的偏好一致，地方政府就会更加主动地推动该概念落地，并结合自身治理现实或是需要对概念进行有差异的具体化；
+其次，地方政府的能力是使得其能够根据自身偏好具体化概念的基础，能力较强的地方政府对中央概念扩散的灵活性就更强；能力较弱的地方政府在集体化中央概念时的灵活性较弱，更多的被中央的意志主导。
+
+\hypertarget{ux6743ux5a01ux8bddux8bedux653fux7b56ux4f01ux4e1aux5bb6ux4e0eux6982ux5ff5ux7684ux6269ux6563}{%
+\subsubsection{``权威话语''：政策企业家与概念的扩散}\label{ux6743ux5a01ux8bddux8bedux653fux7b56ux4f01ux4e1aux5bb6ux4e0eux6982ux5ff5ux7684ux6269ux6563}}
+
+中央政府是概念扩散的发起者，但并不一定是概念的提出者。
+智库、国际组织、社会团体等政策企业家作为权威话语的拥有者，在生产概念和概念传播过程当中都扮演着重要的角色。
+在议程设置阶段，他们会根据自己的目标界定政策议题的实质(\protect\hyperlink{ref-BaezAbolafia2002}{BAEZ 等, 2002})；
+在推广政策阶段，为了突出自身政策的优势，他们会形成政治联盟进行游说，在政策窗口来临前为自身的政策积蓄力量(\protect\hyperlink{ref-MintromVergari1996}{MINTROM 等, 1996})。
+\textbf{在推动政策扩散效果上，政策企业家推动政策扩散受到多种条件的影响。}
+政策企业家所在组织的实力(\protect\hyperlink{ref-Schneider1989}{SCHNEIDER, 1989})、自身素质(\protect\hyperlink{ref-KingdonStano1984a}{KINGDON 等, 1984})、政治联盟(\protect\hyperlink{ref-DoigHargrove1990}{DOIG 等, 1990})、受到的激励(\protect\hyperlink{ref-Teodoro2009}{TEODORO, 2009})等因素都会影响到政策企业家能否参与并推动政策创新。
+
+在此基础上，需由于在不同情景中中央政府、地方政府和政策企业家的影响组合和力量对比不同，概念扩散的类型也会产生差异。图1是``概念扩散''的八种理想类型。
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.9\linewidth]{../figures/frame1} 
+
+}
+
+\caption{“概念扩散”的八种理想类型}\label{fig:unnamed-chunk-1}
+\end{figure}
+
+\hypertarget{ux6982ux5ff5ux6269ux6563ux5047ux8bf4}{%
+\subsubsection{概念扩散假说}\label{ux6982ux5ff5ux6269ux6563ux5047ux8bf4}}
+
+由此，笔者提出有关概念扩散的四个假说
+
+假说一：中央政府的行政指令影响概念扩散；
+
+假说二：地方政府的主动性和能力影响着概念扩散；
+
+假说三：政策企业家的行动影响者概念扩散；
+
+假说四：不同的主体力量对比，会产生不同的概念扩散类型。
+
+\hypertarget{ux5b9eux8bc1ux68c0ux9a8cux4e2dux56fdux5404ux57302030ux5e74ux8054ux5408ux56fdux53efux6301ux7eedux53d1ux5c55ux8baeux7a0bux672cux5730ux5316ux7684ux6bd4ux8f83ux6848ux4f8bux5206ux6790}{%
+\section{实证检验：中国各地``2030年联合国可持续发展议程''本地化的比较案例分析}\label{ux5b9eux8bc1ux68c0ux9a8cux4e2dux56fdux5404ux57302030ux5e74ux8054ux5408ux56fdux53efux6301ux7eedux53d1ux5c55ux8baeux7a0bux672cux5730ux5316ux7684ux6bd4ux8f83ux6848ux4f8bux5206ux6790}}
+
+\hypertarget{ux6570ux636eux4e0eux65b9ux6cd5}{%
+\subsection{数据与方法}\label{ux6570ux636eux4e0eux65b9ux6cd5}}
+
+对上文``概念扩散''的四个假说进行实证检验的理想案例需要满足三个标准：
+
+首先，中央政府对此概念的界定应当是模糊的，这是概念扩散和政策扩散最重要的差别；
+其次，这一模糊概念的扩散在需要由中央政府、地方政府和政策企业家共同参与，多主体的参与有利于我们对不同主体的角色进行分析；
+再次，不同地方对于这一相同概念的扩散结果应当产生较大差异，存在异质性我们才能够比较不同案例扩散机制的差异。
+
+基于上述标准，笔者选择使用中国各地``2030年联合国可持续发展议程''本地化作为案例。
+这一案例符合``多主体互动''的标准。
+``2030年联合国可持续发展议程''是由各成员国共同提出，联合国开发计划署等机构作为职能机构负责推动；
+作为世界上最大的发展中国家，中国高度重视落实2030年可持续发展议程，将其写入``十三五''规划，全面推动可持续发展议程落实工作，并分两批设置六个``国家可持续发展议程创新示范区''。
+中国各地方政府作为``2030年可持续发展议程''本地化的主要负责组织，不仅将``2030年可持续发展议程''写入各地的发展规划，还积极和联合国开发计划署开展国际合作。
+在``2030年可持续发展议程''中国本地化的过程中，中央政府是主要推动者和概念的外部先行者，各地方政府是主要承接者和内部的政策制定者，联合国开发计划署扮演的是政策企业家和外部的权威话语拥有者的角色。
+在此案例中，虽然中央政府从多个角度提出了落实``2030年可持续发展议程''的国别方案，但是对于地方的落实，这一方案还是总体性、原则性和模糊的；
+对于模糊的政策，各地结合产生了不同的概念扩散结果。
+
+在数据来源上，笔者主要使用结构式访谈的方式对中国``2030年联合国可持续发展议程''本地化的主要行为者``联合国开发计划署驻华代表处（UNDP in China）''的官员进行直接数据收集，并通过其反馈和本地化项目成果间接的对中央政府和地方政府进行数据收集。
+在分析方法上，笔者主要通过比较案例分析对中央模糊概念扩散到地方的过程和机制进行实证检验。
+
+\hypertarget{ux6848ux4f8bux9009ux62e92030ux5e74ux8054ux5408ux56fdux53efux6301ux7eedux53d1ux5c55ux8baeux7a0bux7684ux672cux5730ux5316}{%
+\subsection{案例选择：``2030年联合国可持续发展议程''的本地化}\label{ux6848ux4f8bux9009ux62e92030ux5e74ux8054ux5408ux56fdux53efux6301ux7eedux53d1ux5c55ux8baeux7a0bux7684ux672cux5730ux5316}}
+
+可持续发展，作为一种新的发展理念，是顺应时代的变迁、社会经济发展的需要而产生的，是人类对进入工业文明以来所走过的道路进行反思的结果。现代可持续发展理念可追溯到20世纪60年代的《寂静的春天》，1972年联合国召开第一次人类环境大会，环境问题被正式纳入国际发展议程。在此后40多年的漫长探索中，全球可持续发展已经从单纯的理念转变为指导世界各国经济社会建设的重要战略和实践。2015年，联合国召开可持续发展峰会，正式通过了《2030年可持续发展议程》，绘制出未来全球可持续发展合作的蓝图、路径和方向。人类社会的发展观，已经悄然转变为天人合一、人与自然和谐相处的生态文明观。
+
+2010年联合国大会授权启动了后千年发展目标（Post-MDG）和2015年后发展议程（Post2015 Development Agenda）的咨询和讨论。2012年``里约+20''联合国可持续发展首脑峰会决定建立开放工作组（Open Working Group, OWG）就可持续发展目标（Sustainable Development Goals，SDGS）展开谈判，后千年目标的咨询和讨论与之合并推进。经过近3年的准备，2015年9月在美国纽约召开的联合国可持续发展首脑峰会通过了成果文件《改变我们的世界：2030年可持续发展议程》。2016年1月1日，2030议程正式进入实施阶段，这是一部指导未来15年全球可持续发展的纲领性文件，标志全球可持续发展治理掀开新的篇章。
+
+可持续发展目标（SDGs）是2030年可持续发展议程的核心内容，是各国政府经过两年多艰苦谈判取得的成果，为全世界所瞩目。它包括17目标和169个具体目标。2030年可持续发展目标从内容上可以分为5组，对应5P愿景：
+第1-7项目标涉及消除贫困、消除饥饿、保障受教育权利、促进性别平等、享有水、环境卫生和能源服务等，主要体现保障人类自身发展的基本需求，特别是弱势群体的基本权利。
+第8-12项目标涉及可持续经济增长和就业，可持续工业化和创新，减少不平等，建设可持续城市和人类住区，可持续的消费和生产等，重点在促进可持续的经济增长和社会包容。
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.9\linewidth]{../figures/SDGGoals} 
+
+}
+
+\caption{联合国可持续发展目标}\label{fig:unnamed-chunk-2}
+\end{figure}
+
+\hypertarget{ux53efux6301ux7eedux53d1ux5c55ux8baeux7a0bux5728ux4e2dux56fdux7684ux5b9eux8df5}{%
+\subsubsection{``可持续发展议程''在中国的实践}\label{ux53efux6301ux7eedux53d1ux5c55ux8baeux7a0bux5728ux4e2dux56fdux7684ux5b9eux8df5}}
+
+作为世界上最大的发展中国家，中国高度重视落实2030年可持续发展议程，已全面启动可持续发展议程落实工作，在多个可持续发展目标上实现``早期收获''，并形成了一批可复制、可推广的可持续发展现实样板。
+
+中国于2016年发布的《中国落实2030年可持续发展议程国别方案》、《中国落实2030年可持续发展议程创新示范区建设方案》将建设中国落实2030年可持续发展议程创新示范区（以下称``国家可持续发展议程创新示范区''）的思路和目标进一步明确，这是中国积极履行国际承诺，务实推进落实工作的具体体现，是中国针对国内外发展形势，深入实施创新驱动发展战略，切实解决发展中面临的不平衡、不协调、不可持续问题的重要举措。
+国家可持续发展议程创新示范区建设机制。创新示范区建设采取政府、社会等多利益攸关方共同参与的机制。在组织机制上，成立了科技部牵头，外交部、国家发展改革委、生态环境部等20部门组成的部际联席会议机制，负责对创新示范区建设的指导和管理，并结合自身职责，围绕创新示范区建设主题，在科技支撑、政策先行先试等方面支持创新示范区建设。太原、桂林、深圳以及郴州、承德、临沧市政府作为创新示范区建设的主体，均成立了由分管省领导牵头，相关省直部门负责人、示范区所在地政府主要负责同志任成员的示范区建设领导小组，形成了上下联动、协同推进的工作格局。社会参与方面，包括联合国开发计划署、联合国工业发展组织、亚洲开发银行以及中国科学院、清华大学、同济大学、中国可持续发展研究会等许多国际组织、科研院所、高校、企业、非政府组织等积极参与创新示范区建设，多元参与的局面初步形成。
+
+国家可持续发展议程创新示范区建设实践。国务院于2018年、2019年批复了6个国家可持续发展议程创新示范区，既有深圳这样发达的特大型城市，又有发展中的旅游资源优质的城市------桂林市和临沧市，也有太原这样的资源型城市，还有承德和郴州等重要的水源涵养地，并且本着''一个区域一套方案''的原则，对其可持续发展提出了不同的定位和要求（表1）。国家可持续发展议程创新示范区均开展了积极行动，制定了中长期可持续发展规划，积极探索可持续发展的新路径，取得了明显成效。如深圳市大力实施资源高效利用、生态环境治理、健康深圳建设和社会治理现代化`四大工程', 健全创新服务支撑和多元人才支撑`两大体系'的建设思路,完善资源环境的管控机制、社会治理的服务机制、创新创业的动力机制和人才教育的保障机制`四个机制'\,''，整体可持续发展水平已经超过了超大型城市平均水平，但与国际先进城市相比，仍有一定距离和提升空间。 太原市聚焦水、大气污染瓶颈，推进水资源节约和水环境重构、生产生活用能方式绿色改造两大行动52项工程项目实施，累计治理九河河道面积313.6万平方米，建设快速交通156公里，实现了中心城区与东西山地区的快速通达，水清岸绿、山水一体、河湖连通的水韵龙城新格局初步形成，探索的``西山模式''也成为了国家可持续发展议程示范区建设的典型经验。
+
+\begin{center}\includegraphics[width=0.9\linewidth]{../figures/table1} \end{center}
+
+\hypertarget{ux53d8ux91cfux6d4bux91cf}{%
+\subsubsection{变量测量}\label{ux53d8ux91cfux6d4bux91cf}}
+
+中央指令、地方灵活性和政策企业家对政策扩散的影响较为抽象，为了比较方便，笔者对其进行了适当的简化和指标化。
+测量标准如表2所示。
+
+\begin{center}\includegraphics[width=0.9\linewidth]{../figures/table2} \end{center}
+
+对于中央指令的强弱，笔者使用该地是否是``国家可持续发展议程创新示范区''将其设置成一个虚拟变量；
+对于地方灵活性，根据上述框架，笔者将其细分为地方主动性和地方能力两个二级变量，当两者都为强的时候，地方灵活性才被归位强的类别；
+对于权威话语者的影响，笔者使用联合国开发计划署驻中国代表处和各地市人员的自评情况对其进行分类，以分成强弱两类。
+
+\hypertarget{ux6848ux4f8bux9009ux62e9}{%
+\subsubsection{案例选择}\label{ux6848ux4f8bux9009ux62e9}}
+
+基于上述假说，笔者根据影响主体将概念扩散分成了八个理想类型。
+但是在实际案例选择当中，
+笔者发现，``中央指令强、地方灵活性强、权威话语强''的三强型案例在现实中并不存在。
+这也许是因为中央、地方和联合国三者之间在概念扩散过程中的话语竞争不会允许一个三者都强的状态作为稳态持续。
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.9\linewidth]{../figures/figure3} 
+
+}
+
+\caption{“可持续发展议程”概念扩散的类型}\label{fig:unnamed-chunk-5}
+\end{figure}
+
+\hypertarget{ux6bd4ux8f83ux6848ux4f8bux5206ux6790}{%
+\subsubsection{比较案例分析}\label{ux6bd4ux8f83ux6848ux4f8bux5206ux6790}}
+
+在进行次国家层级的比较过程中，学者需要对地区之间的相互影响问题进行处理(\protect\hyperlink{ref-GiraudyEtAl2019d}{GIRAUDY 等, 2019})，这一问题本研究的案例之间并不显著。
+首先，从地理空间上看，开展``2030年联合国可持续发展议程''本地化的城市在中国各地分布的较为均匀，不存在聚集的情况；
+其次，从影响机制上看，``2030年联合国可持续发展议程''本地化推动进程，大多为中央政府推动、联合国提供专业指导、地方政府配合落实，较少存在地方政府之间的互相学习或竞争，地方政府之间跨区域的联系和影响较少。
+
+根据上述理论框架和案例选取原则，本文选取江苏省扬州市、河南省内乡县、广西省桂林市、广东省深圳市、上海和山西省太原市等六个县市的``2030年联合国可持续发展议程''本地化情况作为案例进行比较分析。
+这六个案例在自变量上取值如下表所示(后文将展开详细论述)。
+
+\begin{center}\includegraphics[width=0.9\linewidth]{../figures/table3} \end{center}
+
+根据主导主体不同，笔者将其分为中央主导型、地方主导型、外部主导型、央地协作型、地方外部竞争型、中央外部竞争型、内部外部互动型和无人主导型七种类型，从而比较不同的自变量组合对概念扩散结果的影响。
+
+\textbf{中央主导型。}
+山西太原的``2030年联合国可持续发展议程''本地化进程属于中央主导型。
+2018年2月13日，中国国务院发布《国务院关于同意太原市建设国家可持续发展议程创新示范区的批复》，同意太原市以资源型城市转型升级为主题，建设国家可持续发展议程创新示范区，明确太原市可持续发展议程建设的重点是资源型城市转型升级。
+2018年4月20日，太原市人民政府办公厅发布《太原国家可持续发展议程创新示范区2018年度工作方案》，对国务院上述批复进行具体化，但是较少提出新的概念或者落实路径。
+在和联合国的合作过程中，太原市科技局负责与联合国开发计划署对接，但是合作深度较浅，没有建设明确的项目部和专项项目。其合作仅限于太原市派人参加联合国在国内外开展的论坛培训活动，
+2018年召开的联合国大会展示了太原建设可持续发展议程创新示范区的成果，此后在多项与联合国相关的国际会议上，太原市也有受邀介绍相关经验。
+但是总体来说``太原市的可持续发展建设属于中央政策主导，联合国机构在其中扮演的角色并不多，更多的是给太原提供一个输出的舞台，而非联合国提供专业知识。''
+
+\textbf{地方主导型。}
+上海市是地方主导开展``2030年联合国可持续发展议程''本地化的典型案例。
+虽然上海市不是``国家可持续发展议程创新示范区''的政策试点，但是在中央2015年提出推动``2030年联合国可持续发展议程''本地化建设的政策概念后，上海市利用其国际化水平和治理水平较高的优势，由上海市青浦区人民政府主要负责，和联合国开发计划署(UNDP)、联合国项目事务署(UNOPS)、中国商务部中国国际经济技术交流中心(CICETE)合作开展``联合国/国际组织可持续采购服务、信息分享与能力建设项目''。2021年6月``联合国/国际组织可持续采购服务、信息分享与能力建设项目''，落地上海市青浦区徐泾镇同联创新产业园区。
+联合国机构在全亚洲地区首次设立的，以促进企业参与国际公共采购市场的国际合作示范性项目。联合国机构在中国设立的首个一站式采购服务和能力建设中心。
+
+有趣的是，和其他地方政府主动联系联合国不同，上海市政府和联合国的伙伴关系，是由联合国开发计划署主动发起的，并且是其伙伴关系中重要的``创新试点项目''之一。
+同其他政府主动投入资金和联合国签订合作协议不同，上海市政府利用其主动性和治理能力，将联合国的资源吸纳到本地，作为助力推动地区的发展。
+
+\textbf{外部主导型。}
+河南省内乡县的可持续发展项目是联合国减贫与可持续发展首个县级示范项目。2017年11月14日，内乡县政府、牧原集团与联合国开发计划署(UNDP)驻华代表处在北京达成在内乡建设联合国可持续发展目标示范区(示范村)项目的意向。
+
+内乡和企业(牧原)创新实施的``5+''扶贫模式引起联合国高度关注，将内乡升级建设成为联合国可持续发展目标示范区。``5+''扶贫模式是一个多方共赢模式，实现了政府、银行、龙头企业、贫困户的多方共赢。
+
+中央政府的政策指令和物质激励都是模糊的，虽然内乡县领导班子直接参与同联合国机构对接，但是由于其治理资源和话语权威有限，这一本地化过程更多的被外部政策企业家联合国所主导。
+联合国开发计划署将内乡项目作为其重点的示范项目。
+
+\textbf{央地协作型。}
+深圳市作2018年3月第一批为``国家可持续发展议程创新示范区''，承接着国家``创新引领超大型城市可持续发展''的试点任务。
+深圳市政府直接负责推进和对接工作，主导本地化过程。2019年举办《落实2030年可持续发展议程论坛（中国深圳）》，论坛主题为``坚持创新驱动，支撑可持续发展''，发布《深圳可持续发展综合评价体系研究》报告。深圳可持续发展研究院也将揭牌。2021年11月18日，世界创新城市论坛在深圳举行，``共建开放创新平台，应对时代发展挑战''为主题。深圳市市长覃伟中、联合国开发计划署（UNDP）驻华代表白雅婷参加论坛并致辞。
+虽然同联合国开发计划署签署备忘录进行合作，但是主要由深圳市科创委负责对接，``对接部门权力小、话语权较弱，联合国的合作产出受限''，更多的扮演者观察和背书的角色。
+深圳的``2030年联合国可持续发展议程''本地化体现出明显的央地协作色彩，国家指令明确，地方政府积极主动，外部政策企业家发挥的作用较少。
+
+\textbf{内部外部互动型。}
+江苏省扬州市的概念扩散体现出明显的内外部互动的色彩。扬州并非``国家可持续发展议程创新示范区''，中央行政约束较少。
+但是扬州市政府高度重视可持续发展议程的推动，以及其在推动扬州国际影响力提高的关键作用。
+和一般由科技部门对接不同，扬州市政府的可持续发展议程本地化工作由职能部门外事办负责。
+扬州市在一般的联合国可持续发展议程基础上提出``运河城市''的可持续发展指标，并发布《扬州市运河城市可持续发展评估报告》，建立《运河城市可持续发展评估体系》，这是全球首个运河城市可持续发展评估系统。
+联合国开发计划署将扬州市项目的主要目标设置为``国际伙伴关系建设''。2021年4月13日，在联合国开发计划署（UNDP）驻华代表处代表白雅婷（BeateTrankmann）与世界运河历史文化城市合作组织（WCCO）副主席张福堂共同签署建立合作伙伴关系谅解备忘录，双方确定，2021年，将合作开发首个应用于运河城市的联合国2030可持续发展目标进展评估体系，共同开展运河城市可持续发展领域相关研究。
+深度参与扬州的可持续发展议程本地化过程。
+
+\textbf{中央外部协作型。}
+对于中央指令明确，外部政策企业家也积极主动，但是自身能力弱的地方政府，其概念扩散可能更少的受到自身主导。
+广西桂林的可持续发展议程就是这一过程的典型案例。
+桂林市作为``国家可持续发展议程创新示范区''的政策试点，承接着国家``景观资源可持续利用''的政策任务，中央指令明确。
+联合国机构在其中也扮演着重要的角色，和上海等地直接参与项目推进不同，在桂林项目中，联合国开发计划署的首要任务是培训，告诉当地官员``什么是可持续发展议程''。
+可以说，其从概念界定和议程设置阶段就深度参与桂林的可持续发展议程。
+而且联合国机构在项目中也受到当地政府``高度重视和灵活且丰富的项目产出''，在桂林的可持续发展议程推动中扮演中重要的角色。
+
+在桂林项目中，中央政策概念和联合国的政策理念出现了明显的话语竞争，地方政府一方面需要将中央概念作为其落实政策的方向基础，
+又需要根据联合国机构的意见修改其政策的具体执行细则。
+这在《桂林可持续发展报告2021》中体现的十分明显，这份由联合国开发计划署项目组撰写的报告第一部分回应桂林作为``国家可持续发展议程创新示范区''的建设成效，
+最后一部分，从联合国政策理念的视角对其可持续发展建设的不足提出展望，进行议程设定。
+
+\textbf{无人主导型。}
+除此之外，如果缺乏中央明确指令和联合国机构的合作关系，地方政府也没有足够动机，那``可持续发展议程''就成为``无人主导型''：中央政府的提出``可持续发展议程''的概念，还会原封不动的扩散到各地方政府的发展规划和政策文本中，并不会进一步的落实为具体政策。
+
+\hypertarget{ux603bux7ed3ux4e0eux8ba8ux8bba}{%
+\section{总结与讨论}\label{ux603bux7ed3ux4e0eux8ba8ux8bba}}
+
+政策扩散，并不一定通过清晰的政策文本扩散，往往会通过模糊的政策概念进行传递。
+中央政府政策文件往往不会给出明确的执行细则，而是给出模糊的政策概念或是政策信号。
+面对同样的信号，不同的地方政策制定者往往会有天差地别的理解。
+本文在梳理已有理论的基础上，从政策扩散的主体和内容等视角出发，提出了``概念扩散''的视角。
+在此基础上，笔者使用``可持续发展议程''在中国六个地区的差异性扩散作为案例，使用比较案例分析的方法，
+对``概念扩散''的过程和在过程中受到``中央政府''、``地方政府''和``权威话语者''等主体的影响进行了实证检验。
+
+笔者发现，在``可持续发展议程''本地化的过程中，中国中央政府扮演着概念推动者和政策先行者的角色，在中国提出这一概念并借助行政资源使用政策试点等方式推动其本地化。
+虽然中央政府从多个角度提出了落实``2030年可持续发展议程''的国别方案，但是对于地方的落实，中央政府的界定还是总体性、原则性和模糊的；
+各地方政府是主要承接者和内部的政策制定者；
+除此之外，联合国开发计划署等联合国机构作为``可持续发展议程''在国际层面的提出者和倡导者扮演的是政策企业家和外部的权威话语拥有者的角色。
+
+通过对比我们发现，由于主导主体和力量对比不同，``可持续发展议程''的概念扩散过程分为中央主导型、地方主导型、外部主导型、央地协作型、地方外部竞争型、中央外部竞争型、内部外部互动型和无人主导型七种类型。
+对于不同类型的概念扩散过程，结果差异也较大，不同主体会将自身偏好施加在从``概念''到``政策''的翻译过程。对于多个主体参与的概念扩散，会出现明显的主体间协作或竞争的现象。
+
+\newpage
+
+\hypertarget{ux53c2ux8003ux6587ux732e}{%
+\section*{参考文献}\label{ux53c2ux8003ux6587ux732e}}
+\addcontentsline{toc}{section}{参考文献}
+
+\hypertarget{refs}{}
+\begin{CSLReferences}{1}{0}
+\leavevmode\vadjust pre{\hypertarget{ref-AllenEtAl2004}{}}%
+ALLEN M D, PETTUS C, HAIDER-MARKEL D P, 2004/ed. Making the {National Local}: {Specifying} the {Conditions} for {National Government Influence} on {State Policymaking}{[}J{]}. State Politics \& Policy Quarterly, 4(3): 318--344. DOI:\href{https://doi.org/10.1177/153244000400400304}{10.1177/153244000400400304}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-BaezAbolafia2002}{}}%
+BAEZ B, ABOLAFIA M Y, 2002. Bureaucratic Entrepreneurship and Institutional Change: A Sense-Making Approach{[}J{]}. Journal of public administration research and theory, 12(4): 525--552.
+
+\leavevmode\vadjust pre{\hypertarget{ref-Balla2001}{}}%
+BALLA S J, 2001. Interstate {Professional Associations} and the {Diffusion} of {Policy Innovations}{[}J{]}. American Politics Research, 29(3): 221--245. DOI:\href{https://doi.org/10.1177/1532673X01293001}{10.1177/1532673X01293001}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-Binz-ScharfEtAl2012}{}}%
+BINZ-SCHARF M C, LAZER D, MERGEL I, 2012. Searching for {Answers}: {Networks} of {Practice Among Public Administrators}{[}J{]}. The American Review of Public Administration, 42(2): 202--225. DOI:\href{https://doi.org/10.1177/0275074011398956}{10.1177/0275074011398956}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-Brooks2005}{}}%
+BROOKS S M, 2005. Interdependent and {Domestic Foundations} of {Policy Change}: {The Diffusion} of {Pension Privatization Around} the {World}{[}J{]}. International Studies Quarterly, 49(2): 273--294. DOI:\href{https://doi.org/10.1111/j.0020-8833.2005.00345.x}{10.1111/j.0020-8833.2005.00345.x}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-Burgelman1985}{}}%
+BURGELMAN R A, 1985. Review of {Public Entrepreneurship}: {Toward} a {Theory} of {Bureaucratic Political Power}.{[}J{]}. Administrative Science Quarterly, 30(4): 594--596. DOI:\href{https://doi.org/10.2307/2392700}{10.2307/2392700}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-CHIENHo2011}{}}%
+CHIEN S-S, HO B, 2011. Globalization and the Local Government Learning Process in post-{Mao China}: A Transnational Perspective{[}J{]}. Global Networks, 11(3): 315--333.
+
+\leavevmode\vadjust pre{\hypertarget{ref-DoigHargrove1990}{}}%
+DOIG J W, HARGROVE E C, 1990. Leadership and Innovation: {Entrepreneurs} in Government{[}M{]}. {JHU Press}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-DouglasEtAl2015}{}}%
+DOUGLAS J W, RAUDLA R, HARTLEY R E, 2015. Shifting Constellations of Actors and Their Influence on Policy Diffusion: {A} Study of the Diffusion of Drug Courts{[}J{]}. Policy Studies Journal, 43(4): 484--511.
+
+\leavevmode\vadjust pre{\hypertarget{ref-Drezner2005}{}}%
+DREZNER D W, 2005. Globalization, Harmonization, and Competition: The Different Pathways to Policy Convergence{[}J{]}. Journal of European Public Policy, 12(5): 841--859. DOI:\href{https://doi.org/10.1080/13501760500161472}{10.1080/13501760500161472}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-FayWenger2016}{}}%
+FAY D L, WENGER J B, 2016. The {Political Structure} of {Policy Diffusion}{[}J{]}. Policy Studies Journal, 44(3): 349--365. DOI:\href{https://doi.org/10.1111/psj.12122}{10.1111/psj.12122}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-Fuglister2012}{}}%
+FÜGLISTER K, 2012. Where Does Learning Take Place? {The} Role of Intergovernmental Cooperation in Policy Diffusion{[}J{]}. European Journal of Political Research, 51(3): 316--349. DOI:\href{https://doi.org/10.1111/j.1475-6765.2011.02000.x}{10.1111/j.1475-6765.2011.02000.x}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-GarrettJansa2015}{}}%
+GARRETT K N, JANSA J M, 2015. Interest {Group Influence} in {Policy Diffusion Networks}{[}J{]}. State Politics \& Policy Quarterly, 15(3): 387--417. DOI:\href{https://doi.org/10.1177/1532440015592776}{10.1177/1532440015592776}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-GiraudyEtAl2019d}{}}%
+GIRAUDY A, MONCADA E, SNYDER R, 2019. Inside Countries: {Subnational} Research in Comparative Politics{[}M{]}. {Cambridge University Press}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-GlickHays1991}{}}%
+GLICK H R, HAYS S P, 1991. Innovation and {Reinvention} in {State Policymaking}: {Theory} and the {Evolution} of {Living Will Laws}{[}J{]}. The Journal of Politics, 53(3): 835--850. DOI:\href{https://doi.org/10.2307/2131581}{10.2307/2131581}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-Gray1973}{}}%
+GRAY V, 1973. Innovation in the {States}: {A Diffusion Study}*{[}J{]}. American Political Science Review, 67(4): 1174--1185. DOI:\href{https://doi.org/10.2307/1956539}{10.2307/1956539}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-Haas1992}{}}%
+HAAS P M, 1992/ed. Introduction: Epistemic Communities and International Policy Coordination{[}J{]}. International Organization, 46(1): 1--35. DOI:\href{https://doi.org/10.1017/S0020818300001442}{10.1017/S0020818300001442}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-Heilmann2018}{}}%
+HEILMANN S, 2018. Red {Swan}: {How Unorthodox Policy-Making Facilitated China}'s {Rise}{[}M{]}. {The Chinese University of Hong Kong Press}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-Karch2006}{}}%
+KARCH A, 2006. National {Intervention} and the {Diffusion} of {Policy Innovations}{[}J{]}. American Politics Research, 34(4): 403--426. DOI:\href{https://doi.org/10.1177/1532673X06288202}{10.1177/1532673X06288202}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-KingdonStano1984a}{}}%
+KINGDON J W, STANO E, 1984. Agendas, Alternatives, and Public Policies{[}M{]}. {Little, Brown Boston}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-MeiLiu2014}{}}%
+MEI C, LIU Z, 2014. Experiment-Based Policy Making or Conscious Policy Design? {The} Case of Urban Housing Reform in {China}{[}J{]}. Policy Sciences, 47(3): 321--337.
+
+\leavevmode\vadjust pre{\hypertarget{ref-Mintrom1997}{}}%
+MINTROM M, 1997. Policy {Entrepreneurs} and the {Diffusion} of {Innovation}{[}J{]}. American Journal of Political Science, 41(3): 738--770. DOI:\href{https://doi.org/10.2307/2111674}{10.2307/2111674}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-MintromVergari1996}{}}%
+MINTROM M, VERGARI S, 1996. Advocacy Coalitions, Policy Entrepreneurs, and Policy Change{[}J{]}. Policy studies journal, 24(3): 420--434.
+
+\leavevmode\vadjust pre{\hypertarget{ref-Perez-ArmendarizCrow2010}{}}%
+PÉREZ-ARMENDÁRIZ C, CROW D, 2010. Do {Migrants Remit Democracy}? {International Migration}, {Political Beliefs}, and {Behavior} in {Mexico}{[}J{]}. Comparative Political Studies, 43(1): 119--148. DOI:\href{https://doi.org/10.1177/0010414009331733}{10.1177/0010414009331733}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-Saikawa2013}{}}%
+SAIKAWA E, 2013. Policy {Diffusion} of {Emission Standards Is There} a {Race} to the {Top}?{[}J{]}. World Politics, 65(1): 1--33. DOI:\href{https://doi.org/10.1017/S0043887112000238}{10.1017/S0043887112000238}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-Schneider1989}{}}%
+SCHNEIDER M, 1989. The Competitive City: {The} Political Economy of Suburbia{[}M{]}. {University of Pittsburgh Pre}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-SchneiderTeske1992}{}}%
+SCHNEIDER M, TESKE P, 1992. Toward a Theory of the Political Entrepreneur: Evidence from Local Government{[}J{]}. American Political Science Review, 86(3): 737--747.
+
+\leavevmode\vadjust pre{\hypertarget{ref-ShipanVolden2008}{}}%
+SHIPAN C R, VOLDEN C, 2008. The {Mechanisms} of {Policy Diffusion}{[}J{]}. American Journal of Political Science, 52(4): 840--857. DOI:\href{https://doi.org/10.1111/j.1540-5907.2008.00346.x}{10.1111/j.1540-5907.2008.00346.x}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-ShipanVolden2012}{}}%
+SHIPAN C R, VOLDEN C, 2012. Policy {Diffusion}: {Seven Lessons} for {Scholars} and {Practitioners}{[}J{]}. Public Administration Review, 72(6): 788--796. DOI:\href{https://doi.org/10.1111/j.1540-6210.2012.02610.x}{10.1111/j.1540-6210.2012.02610.x}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-Stone2004}{}}%
+STONE D, 2004. Transfer Agents and Global Networks in the {〈Transnationalization〉} of Policy{[}J{]}. Journal of European Public Policy, 11(3): 545--566. DOI:\href{https://doi.org/10.1080/13501760410001694291}{10.1080/13501760410001694291}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-TaylorEtAl2012}{}}%
+TAYLOR J K, LEWIS D C, JACOBSMEIER M L, 等, 2012. Content and Complexity in Policy Reinvention and Diffusion: {Gay} and Transgender-Inclusive Laws against Discrimination{[}J{]}. State Politics \& Policy Quarterly, 12(1): 75--98.
+
+\leavevmode\vadjust pre{\hypertarget{ref-Teodoro2009}{}}%
+TEODORO M P, 2009. Bureaucratic {Job Mobility} and {The Diffusion} of {Innovations}{[}J{]}. AMERICAN JOURNAL OF POLITICAL SCIENCE, 53(1): 175--189. DOI:\href{https://doi.org/10.1111/j.1540-5907.2008.00364.x}{10.1111/j.1540-5907.2008.00364.x}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-Walker1973}{}}%
+WALKER J L, 1973. Comment: {Problems} in Research on the Diffusion of Policy Innovations{[}J{]}. American Political Science Review, 67(4): 1186--1191.
+
+\leavevmode\vadjust pre{\hypertarget{ref-WelchThompson1980}{}}%
+WELCH S, THOMPSON K, 1980. The {Impact} of {Federal Incentives} on {State Policy Innovation}{[}J{]}. American Journal of Political Science, 24(4): 715--729. DOI:\href{https://doi.org/10.2307/2110955}{10.2307/2110955}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-ZhouWang2012}{}}%
+周望, 2012. {政策扩散理论与中国{《政策试验》}研究:启示与调适}{[}J{]}. 四川行政学院学报, (04): 43--46.
+
+\leavevmode\vadjust pre{\hypertarget{ref-ZhouXueGuang2009a}{}}%
+周雪光, 2009. 基层政府间的 {《共谋现象》}\textemdash\textemdash 一个政府行为的制度逻辑{[}J{]}. 开放时代, 12: 40--55.
+
+\leavevmode\vadjust pre{\hypertarget{ref-KongWeiNaZhangGuang2013}{}}%
+孔卫拿, 张光, 2013. {功能性联邦主义的中国型态及其代价}{[}J{]}. 公共行政评论, 6(05): 76--108+180.
+
+\leavevmode\vadjust pre{\hypertarget{ref-ZhuYaPengXiaoDiWen2014}{}}%
+朱亚鹏, 肖棣文, 2014. {政策企业家与社会政策创新}{[}J{]}. 社会学研究, 29(03): 56--76+242.
+
+\leavevmode\vadjust pre{\hypertarget{ref-ZhuGuangNanEtAl2012a}{}}%
+朱光楠, 李敏, 严敏, 2012. 公务员公共服务动机对工作投入的影响研究{[}J{]}. 公共行政评论.
+
+\leavevmode\vadjust pre{\hypertarget{ref-ZhuDuoGangHuZhenJi2017}{}}%
+朱多刚, 胡振吉, 2017. 中央政府推进政策扩散的方式研究\textemdash\textemdash 以廉租房政策为例{[}J{]}. 东北大学学报(社会科学版), 19(04): 378--384.
+
+\leavevmode\vadjust pre{\hypertarget{ref-ZhuXuFengZhaoHui2016}{}}%
+朱旭峰, 赵慧, 2016. {政府间关系视角下的社会政策扩散\textemdash\textemdash 以城市低保制度为例(1993\textemdash 1999)}{[}J{]}. 中国社会科学, (08): 95--116+206.
+
+\leavevmode\vadjust pre{\hypertarget{ref-LiMiaoCuiJun2018}{}}%
+李苗, 崔军, 2018. {政府间事权与支出责任划分:从错配到适配\textemdash\textemdash 兼论事权责任层次和权力要素的双重属性}{[}J{]}. 公共管理与政策评论, 7(04): 41--56.
+
+\leavevmode\vadjust pre{\hypertarget{ref-LinXueFei2015}{}}%
+林雪霏, 2015. {政府间组织学习与政策再生产:政策扩散的微观机制\textemdash\textemdash 以{《城市网格化管理》}政策为例}{[}J{]}. 公共管理学报, 12(01): 11-23+153-154.
+
+\leavevmode\vadjust pre{\hypertarget{ref-MeiSiQiEtAl2015}{}}%
+梅赐琪, 汪笑男, 廖露, 等, 2015. {政策试点的特征:基于《人民日报》1992\textemdash 2003年试点报道的研究}{[}J{]}. 公共行政评论, 8(03): 8--24+202.
+
+\leavevmode\vadjust pre{\hypertarget{ref-WangPuQuLaiXianJin2013}{}}%
+王浦劬, 赖先进, 2013. {中国公共政策扩散的模式与机制分析}{[}J{]}. 北京大学学报(哲学社会科学版), 50(06): 14--23.
+
+\leavevmode\vadjust pre{\hypertarget{ref-WangShaoGuang2008a}{}}%
+王绍光, 2008. {学习机制与适应能力:中国农村合作医疗体制变迁的启示}{[}J{]}. 中国社会科学, (06): 111--133+207.
+
+\leavevmode\vadjust pre{\hypertarget{ref-HanWanQu2019}{}}%
+韩万渠, 2019. {决策咨询制度扩散机制及其区域差异:基于中国城市政府的实证(1983\textemdash 2016)}{[}J{]}. 公共管理与政策评论, 8(04): 3--17.
+
+\leavevmode\vadjust pre{\hypertarget{ref-MaLiang2019}{}}%
+马亮, 2019. 中国城市之间的政策学习：网络、结构与特征{[}R{]}.
+
+\end{CSLReferences}
+
+\end{document}
